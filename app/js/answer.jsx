@@ -21,7 +21,7 @@ var Answer = React.createClass({
         <div className="answer-picture"><img src={img} alt={name} /></div>
         <div className="answer-text">{text}</div>
         <div className="answer-next">
-          <button className="btn btn-lg btn-primary answer-button-next" onClick={this.props.nextQuestion}>Weiter</button>
+          <button className="btn btn-lg btn-primary answer-button-next" onClick={this.props.nextQuestion}>Weiter!</button>
         </div>
       </div>
     )
