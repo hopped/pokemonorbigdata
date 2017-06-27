@@ -11,17 +11,17 @@ var Answer = React.createClass({
     var name = this.props.question.name;
     var url = this.props.question.url;
     var text = this.props.question.text;
-    var type = this.props.question.type === IS_BIGDATA ? 'Big Data' : 'Pokemon';
+    var type = this.props.question.type === IS_BIGDATA ? 'Big Data' : 'Pokémon';
 
     return (
       <div className={classes}>
         <h1 className="answer-name">
-            <a href={url} target="_blank">{name}</a> is {type}!
+            <a href={url} target="_blank">{name}</a> ist {type}!
         </h1>
         <div className="answer-picture"><img src={img} alt={name} /></div>
         <div className="answer-text">{text}</div>
         <div className="answer-next">
-          <button className="btn btn-lg btn-primary answer-button-next" onClick={this.props.nextQuestion}>Next question</button>
+          <button className="btn btn-lg btn-primary answer-button-next" onClick={this.props.nextQuestion}>Weiter</button>
         </div>
       </div>
     )
