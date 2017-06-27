@@ -3,7 +3,7 @@
 var SplashScreen = React.createClass({
   render: function() {
     return (
-      <div className="splashscreen">Is it big data or Pokemon ?</div>
+      <div className="splashscreen">Ist es ein Pokémon oder eine Big Data Technologie?</div>
     )
   }
 });
