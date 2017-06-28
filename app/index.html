@@ -14,13 +14,13 @@
     <meta property="og:title" content="Pokémon oder Big Data?">
     <meta property="og:site_name" content="Pokémon oder Big Data?">
     <meta property="og:description" content="Pokémon oder Big Data?">
+    <link rel="stylesheet" href="css/pokemon.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   </head>
   <body id="body">
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -30,31 +30,33 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand navbar-left" href="/index.html">Pok&eacute;mon oder Big Data?</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Quiz</a></li>
+            <li><a href="/about.html">CATALYST</a></li>
+            <li><a href="/contact.html">Impressum</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+    <div id="content" class="container-fluid" />
+<!--
+    <div class="container-fluid">
+      <div class="row">
+        <div id="content" class="">
+          
+        </div>
       </div>
+    </div>
+-->
 
-    </div><!-- /.container -->
-      <div id="content"></div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-     <!-- Latest compiled and minified JavaScript -->
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/react.js"></script>
     <script src="js/lodash.min.js"></script>
     <script src="js/zepto.min.js"></script>
@@ -64,9 +66,6 @@
     <script src="js/question.js"></script>
     <script src="js/answer.js"></script>
     <script src="js/app.js"></script>
-    <p class="inspired">
-      Inspired by <a href="https://twitter.com/pixelastic/">@pixelastic</a>.
-    </p>
   </body>
 </html>
 

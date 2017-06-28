@@ -13,9 +13,11 @@ var EndScreen = React.createClass({
     var style = {
       width: percent + '%'
     };
-
+    var mystyle = {
+      'padding-top': '60px'
+    };
     return (
-      <div className="endscreen">
+      <div style={mystyle} className="endscreen">
         <h1 className="endscreen-title">Glückwunsch! Du hast {percent}% korrekt!</h1>
         <div className="progress">
           <div className={classes} style={style}>

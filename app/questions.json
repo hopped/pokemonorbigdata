@@ -27,7 +27,7 @@
   "url": "https://flink.apache.org/",
   "type": 1,
   "text": "Apache Flink ist ein Datenstrom-Verarbeitungs-Framework. Den Kern von Apache Flink bildet eine verteilte Datenfluss-Engine, die es erlaubt sowohl Datenströme als auch Stapeldaten zu verarbeiten.",
-  "img": "flink.jpg"
+  "img": "flink.png"
 }, {
   "name": "Impala",
   "url": "http://impala.io/",
@@ -55,7 +55,7 @@
 }, {
   "name": "Splunk",
   "url": "https://de.wikipedia.org/wiki/Splunk",
-  "type": 0,
+  "type": 1,
   "text": "Splunk ist ein Log-, Monitoring- und Reporting-Tool für IT-Systemadministratoren. Splunk soll Systemadministratoren dabei unterstützen, Störfälle zu erkennen und zu analysieren. Splunk nutzt als Basistechnologie MapReduce, um die relevanten Daten, Ereignisse und Logdateien zu erfassen, zu indexieren und durchsuchbar zu machen.",
   "img": "splunk.png"
 }]
