@@ -38,7 +38,7 @@
     "build:watch": "parallelshell 'npm run watch:html' 'npm run watch:css' 'npm run watch:js' 'npm run watch:jsx' 'npm run watch:json' 'npm run watch:img'",
 
     "preserve": "npm run build",
-    "serve": "npm run build:watch & live-server --port=9200 dist/"
+    "serve": "npm run build:watch & live-server --port=8088 dist/"
   },
   "devDependencies": {
     "live-server": "0.7.0",

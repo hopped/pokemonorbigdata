@@ -82,6 +82,6 @@ var App = React.createClass({
 
 React.render(
   <App />,
-  document.getElementById('body')
+  document.getElementById('content')
 );
 
