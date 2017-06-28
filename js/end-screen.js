@@ -13,10 +13,12 @@ var EndScreen = React.createClass({displayName: "EndScreen",
     var style = {
       width: percent + '%'
     };
-
+    var mystyle = {
+      'padding-top': '60px'
+    };
     return (
-      React.createElement("div", {className: "endscreen"}, 
-        React.createElement("h1", {className: "endscreen-title"}, "Congratulations, you got ", percent, "% correct!"), 
+      React.createElement("div", {style: mystyle, className: "endscreen"}, 
+        React.createElement("h1", {className: "endscreen-title"}, "Glückwunsch! Du hast ", percent, "% korrekt!"), 
         React.createElement("div", {className: "progress"}, 
           React.createElement("div", {className: classes, style: style}, 
             React.createElement("span", {className: "sr-only"}, "20% Complete")

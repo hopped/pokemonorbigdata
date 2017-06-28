@@ -8,13 +8,20 @@ var Question = React.createClass({displayName: "Question",
     this.props.selectAnswer(IS_POKEMON);
   },
   render: function() {
+
     return (
-      React.createElement("div", {className: "question"}, 
-        React.createElement("h1", {className: "question-name"}, this.props.question.name), 
-        React.createElement("ul", {className: "question-buttons"}, 
-          React.createElement("li", null, React.createElement("button", {className: "btn btn-lg btn-default question-button-bigdata", onClick: this.selectBigDataAnswer}, "Big Data")), 
-          React.createElement("li", null, React.createElement("button", {className: "btn btn-lg btn-default question-button-pokemon", onClick: this.selectPokemonAnswer}, "Pokemon"))
-        )
+      React.createElement("div", {className: "row row-centered row-vertical"}, 
+      React.createElement("div", {className: "vertical"}, 
+          React.createElement("h1", {className: "question-name"}, "Was ist ", this.props.question.name, "?"), 
+          React.createElement("div", {className: "btn-group btn-group-lg"}, 
+            React.createElement("button", {className: "btn btn-primary", onClick: this.selectBigDataAnswer}, 
+              "Big Data"
+            ), 
+            React.createElement("button", {className: "btn btn-primary", onClick: this.selectPokemonAnswer}, 
+              "Pokémon"
+            )
+          )
+      )
       )
     )
   }
