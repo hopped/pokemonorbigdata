@@ -41,17 +41,17 @@
   "text": "Seahorse ist ein Framework, welches es erlaubt, Spark Anwendungen visuell zu entwickeln. Es eignet sich daher hervorragend, um Prototypen mittels Drag & Drop zu bauen.",
   "img": "seahorse.png"
 }, {
-  "name": "Seeper",
-  "url": "https://www.pokewiki.de/Seeper",
+  "name": "Dratini",
+  "url": "https://www.pokewiki.de/Dratini",
   "type": 0,
-  "text": "Seeper ist ein kleines, hauptsächlich hellblau gefärbtes Pokémon. Wenn Seeper Gefahr wittert, versprüht es reflexartig eine tiefschwarze Tinte aus seinem Mund und ergreift die Flucht. ",
-  "img": "horsea.png"
+  "text": "Dratini ist ein mittelgroßes, schlangenähnliches Pokémon, das hellblau und weiß gefärbt ist. Dratinis Aussehen ähnelt stark einer Seeschlange und könnte auf einem Imugi, dem koreanischen Drachen, basieren. In der koreanischen Mythologie sind Imugis glücksbringende Schlangen, die sich sehnlich wünschen, ein Drache zu werden.",
+  "img": "dratini.png"
 }, {
-  "name": "Spoink",
-  "url": "https://www.pokewiki.de/Spoink",
-  "type": 0,
-  "text": "Spoink ist ein kleines, grau gefärbtes Pokémon. Sein Name setzt sich zusammen aus den Wörtern \"springe\" und \"oink\" (dem Laut von Schweinen). Nicht zu verwechseln mit Splunk!",
-  "img": "spoink.png"
+  "name": "Spark",
+  "url": "https://spark.apache.org/",
+  "type": 1,
+  "text": "Apache Spark ist ein Framework für Cluster Computing. Es wurde aufgrund von Limitierungen des MapReduce-Algorithmus entwickelt, welcher einen stikten linearen Datenfluss voraussetzt. Spark-Programme erlauben auch die effiziente Implementierung von iterativen Algorithmen, die Daten in mehreren Schleifen wiederholt verarbeiten.",
+  "img": "spark.png"
 }, {
   "name": "Splunk",
   "url": "https://de.wikipedia.org/wiki/Splunk",

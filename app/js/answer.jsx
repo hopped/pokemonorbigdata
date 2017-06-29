@@ -18,18 +18,16 @@ var Answer = React.createClass({
     document.body.classList.toggle('bg-success', this.props.isAnswerCorrect)
     document.body.classList.toggle('bg-danger', !this.props.isAnswerCorrect)
 
-    var mystyle = {
-      'padding-top': '60px'
-    };
     return (
-      <div style={mystyle}>
+      <div className="row row-centered row-vertical">
+      <div className="vertical">
+      <div className={classes}>
+          <div className="answer-picture"><img src={img} alt={name} className="img-responsive"/></div>
+      </div>
       <div className={classes}>
           <h1 className="answer-name">
             <a className="external" href={url} target="_blank">{name}</a> ist {type}!
           </h1>
-      </div>
-      <div className={classes}>
-          <div className="answer-picture"><img src={img} alt={name} className="img-responsive" width="300px"/></div>
       </div>
       <div className={classes}>
         <div className="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
@@ -38,8 +36,9 @@ var Answer = React.createClass({
       </div>
       <div className={classes}>
           <div className="answer-next">
-            <button className="btn btn-lg btn-primary answer-button-next" onClick={this.props.nextQuestion}>Weiter!</button>
+            <button className="btn btn-lg btn-primary answer-button-next" onClick={this.props.nextQuestion}>N&auml;chste Frage</button>
           </div>
+      </div>
       </div>
       </div>
     )
